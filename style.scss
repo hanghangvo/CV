@@ -1,0 +1,63 @@
+$primary-color:hsl(0, 86%, 28%);
+$secondary-color: darken(invert($primary-color),10);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}*
+
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 90%;
+    clip-path: circle(40%);
+    shape-outside: circle(45%);
+}
+
+h1, h2{
+    color: $primary-color;
+}
+
+h4{
+    color: darken($primary-color, 30%);
+}
+
+h5{
+    color: lighten($primary-color, 10%) ;
+}
+
+.line-1 {
+    height: 2px;
+    background-color:$primary-color;
+    margin-bottom: 2px;
+}
+
+.line-2{
+    height: 0.5px;
+    background: darken($primary-color, 50%);
+    margin-bottom: 2px;
+}
+
+.sprachkenntnisse{
+    ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+}
+
+
+.EDV{
+    p{
+        border: 2px;
+        border-color:rgb(189, 190, 191);
+        border-style: solid;
+        border-radius: 10%;
+        margin: 4px;
+        padding: 3px;
+    }
+    .width-change{
+        width: 130px;
+    }
+}
+

@@ -12,6 +12,8 @@
 
 h1, h2 {
   color: hsl(0, 86%, 28%);
+  margin-top: 0;
+  padding-top: 0;
 }
 
 h4 {
@@ -31,7 +33,7 @@ h5 {
 .line-2 {
   height: 0.5px;
   background: black;
-  margin-bottom: 2px;
+  margin-bottom: 0;
 }
 
 .sprachkenntnisse ul {
